@@ -1,22 +1,18 @@
-import blockContent from './blockContent'
-import crewMember from './crewMember'
-import castMember from './castMember'
-import movie from './movie'
-import person from './person'
-import screening from './screening'
-import plotSummary from './plotSummary'
-import plotSummaries from './plotSummaries'
+import account from "./account";
+import user from "./user";
+import booking from "./booking";
+import hotelRoom from "./hotelRoom";
+import review from "./review";
+import verificationToken from "./verificationToken";
 
 export const schemaTypes = [
   // Document types
-  movie,
-  person,
-  screening,
+  user,
+  account,
+  booking,
+  hotelRoom,
+  review,
+  verificationToken,
 
   // Other types
-  blockContent,
-  plotSummary,
-  plotSummaries,
-  castMember,
-  crewMember,
-]
+];
